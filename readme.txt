@@ -1,0 +1,9 @@
+本代码为使用foundationpose进行手眼标定的仿真代码
+安装pybulet以及相关的cv2等即可运行
+
+run.py运行仿真环境，并保存rgb/depth到foundationpose中，需要修改为自己的路径，给了一个示例数据在demo_data里面
+env.py中86行设置相机在基座坐标系下的位姿
+
+work.py中进行手眼标定误差的计算
+
+
